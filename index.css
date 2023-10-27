@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
+}
+header ul li{
+    list-style: none;
+    margin-right: 15px ;
+}
+header ul{
+    display: flex;
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45px ;
+    height: 24px;
+    background-color: #000000b2;
+    margin-top: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+header div img{
+  margin-right: 3px;
+  height: 18px;
+}
+header div .image{
+    margin-left: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    
+}
+.container .cont-col1{
+   
+    width: 50%;
+    display: block;
+    padding: 30px;
+}
+.container .cont-col1 p{
+    font-weight: bold;
+}
+.container .cont-col1 h1{
+font-size: 80px;
+}
+.container .cont-col2 img{
+width: 600px;
+height: 500px;
+}
+.container .cont-col1 .cont-botoes{
+    margin-top: 20px;
+}
+.container .cont-col1 .cont-botoes .botao1{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 20px;
+}
+.container .cont-col1 .cont-botoes .link1{
+    color: blue;
+    font-weight: bold;
+}
+.container .cont-col1 .cont-explica{
+    display: flex;
+    margin-top: 30px;
+}
+.container .cont-col1 .cont-explica div{
+    display: flex;
+    margin-right: 30px;
+}
+.container .cont-col1 .cont-explica div img{
+    filter: url(svg#greenscale)
+}
